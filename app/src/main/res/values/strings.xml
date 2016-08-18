@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">通讯录</string>
+    <string name="add_contact">添加联系人</string>
+    <string name="search_contact">查询联系人</string>
+    <string name="add_contact_title">添加联系人</string>
+    <string name="edit_contact_top_message">在下面修改联系人</string>
+    <string name="edit_contact_title">修改联系人</string>
+    <string name="input_name">输入名字:</string>
+    <string name="add_phonenumber">电话号码:</string>
+    <string name="add_emailid">电子邮件地址:</string>
+    <string name="add_qqnumber">QQ号码</string>
+    <string name="add_submit">确认添加</string>
+    <string name="add_hint_name">输入名字</string>
+    <string name="add_hint_phone_number">输入电话号码</string>
+    <string name="add_hint_email_id">输入电子邮件地址</string>
+    <string name="main_to_addcontact">addContact</string>
+</resources>

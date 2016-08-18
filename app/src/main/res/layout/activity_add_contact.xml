@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ui.AddContactActivity">
+
+
+    <TextView
+        android:id="@+id/tv_add_top_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/add_contact_title"
+        android:textSize="32sp"/>
+
+    <!--Name   -->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="36dp"-->
+    <!--android:textSize="18sp"-->
+    <!--android:text="@string/input_name"-->
+    <!--android:textColor="@android:color/black"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:src="@mipmap/ic_person_black_24dp"/>
+
+        <EditText
+            android:id="@+id/et_add_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="@string/add_hint_name"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+
+    <!--Phone number   -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:textSize="18sp"-->
+        <!--android:text="@string/add_phonenumber"-->
+        <!--android:textColor="@android:color/black"/>-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:src="@mipmap/ic_phone_24dp"/>
+
+        <EditText
+            android:id="@+id/et_add_phonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="@string/add_hint_phone_number"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <!--email ID   -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:textSize="18sp"-->
+        <!--android:text="@string/add_emailid"-->
+        <!--android:textColor="@android:color/black"/>-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:src="@mipmap/ic_email_24dp"/>
+
+        <EditText
+            android:id="@+id/et_add_emailid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="@string/add_hint_email_id"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+
+    <!--QQ Number   -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:textSize="18sp"-->
+        <!--android:text="@string/add_qqnumber"-->
+        <!--android:textColor="@android:color/black"/>-->
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@mipmap/tencent_qq"/>
+
+        <EditText
+            android:id="@+id/et_add_qqnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="输入QQ号码"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+
+    <!--Submit all data  -->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_add_submit"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_marginTop="36dp"-->
+        <!--android:onClick="saveContact"-->
+        <!--android:text="@string/add_submit"-->
+        <!--android:textSize="16sp"/>-->
+</LinearLayout>

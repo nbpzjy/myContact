@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="100dp"
+    >
+
+    <TextView
+        android:id="@+id/item_tv_name"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="8dp"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:text="名字"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_below="@id/item_tv_name"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/item_tv_phone_number"
+        android:textSize="16sp"
+        android:text="电话号"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_below="@id/item_tv_phone_number"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/item_tv_email_id"
+        android:text="电子邮件地址"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/item_tv_name"
+        android:layout_marginRight="20dp"
+        android:id="@+id/item_tv_qq_number"
+        android:text="QQ号码"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+
+</RelativeLayout>
